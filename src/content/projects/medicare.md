@@ -2,17 +2,17 @@
 title: "Remote Medicare Specialist"
 slug: "medicare"
 description: "Managed 15+ daily virtual consultations and maintained 100% CMS compliance for senior health coverage."
-pubDate: "Sept 2025"
+pubDate: "2025-09-01"
 heroImage: "/medicare.jpg"
 badge: "Sales"
 ---
 
 ### **The Role**
-As a Remote Medicare Sales Agent, I specialized in navigating complex federal regulations to provide tailored healthcare solutions for seniors during the high-pressure Special Enrollment Period (SEP).
+As a Remote Medicare Sales Agent, I specialized in navigating complex federal regulations to provide tailored healthcare solutions for seniors during the high-pressure Special Enrollment Period.
 
 ### **Key Achievements**
 * **High-Volume Consultations:** Conducted 15+ comprehensive virtual consultations daily, converting complex insurance jargon into clear, actionable advice for diverse client groups.
-* **Regulatory Mastery:** maintained **100% compliance** with strictly enforced CMS (Centers for Medicare & Medicaid Services) guidelines, ensuring zero infractions during enrollment processing.
+* **Regulatory Mastery:** Maintained **100% compliance** with strictly enforced CMS (Centers for Medicare & Medicaid Services) guidelines, ensuring zero infractions during enrollment processing.
 * **Digital Pipeline Management:** Leveraged remote CRM tools (Salesforce/HubSpot) to track leads and ensure consistent follow-up, resulting in high retention rates.
 
 ### **Skills Applied**
