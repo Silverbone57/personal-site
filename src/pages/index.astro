@@ -30,49 +30,32 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div>
+    <div class="text-3xl w-full font-bold mb-2">Key Experience & Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="Remote Medicare Specialist"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    desc="Managed 15+ daily virtual consultations and maintained 100% CMS compliance for senior health coverage. Leveraged remote CRM tools to guide seniors through Medicare Advantage and Part D options."
+    url="/projects/medicare"
+    badge="Sales"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="Community Leadership (ISPC)"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Led a volunteer team serving 100+ daily community members for the Islamic Society of Pinellas County. Acted as a youth mentor and organized large-scale service operations."
+    url="/projects/ispc-leadership"
+    badge="Leadership"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
+    title="Digital Strategy & Growth"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    desc="Developed a social media content strategy that generated over 10 million views. Managed video production, analytics, and community engagement to maximize digital reach."
+    url="/projects/social-media"
+    badge="Marketing"
   />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
-  </div>
-
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
-</BaseLayout>
+  </BaseLayout>
