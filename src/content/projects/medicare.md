@@ -2,7 +2,7 @@
 title: "Remote Medicare Specialist"
 description: "Managed 15+ daily virtual consultations and maintained 100% CMS compliance for senior health coverage."
 pubDate: "Sept 2025"
-heroImage: "/post_img.webp"
+heroImage: "/medicare logo.png"
 badge: "Sales"
 ---
 
