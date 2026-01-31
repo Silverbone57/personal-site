@@ -2,7 +2,7 @@
 title: "Community Leadership (ISPC)"
 description: "Led a volunteer team serving 100+ daily community members for the Islamic Society of Pinellas County."
 pubDate: "Mar 2024"
-heroImage: "/post_img.webp"
+heroImage: "/ispc logo.jpg"
 badge: "Leadership"
 ---
 
