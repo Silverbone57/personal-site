@@ -5,57 +5,52 @@ import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
 const last_posts = posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
- <div class="pb-12 mt-5">
+  <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
     <div class="text-5xl font-bold">I'm Mobinu Shadhin</div>
-    <div class="text-3xl py-3 font-bold">Future Clinician | Psychology at USF | Licensed Insurance Professional</div>
+    <div class="text-3xl py-3 font-bold">Aspiring Dentist & Insurance Professional</div>
     <div class="py-2">
       <text class="text-lg">
-        I am a Psychology student at the University of South Florida focused on the intersection of <b>behavioral science</b> and <b>clinical dental medicine</b>. My goal is to leverage an understanding of patient psychology to provide patient-centered care in a future dental practice.
-        <br/><br/>
-        Currently, I am a Licensed Health Insurance Agent, specializing in navigating regulatory frameworks and identifying coverage solutions. My background in high-volume consultations and community leadership has developed a disciplined approach to <b>clinical ethics</b> and <b>professional communication</b>.
+        I bridge the gap between healthcare, sales, and community service. With a background in high-compliance insurance sales and large-scale volunteer leadership, I bring discipline and empathy to every project.
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="/contact" target="_blank"> Let's connect!</a>
-      <a href="/cv" class="btn btn-outline ml-5">
-        View My CV
-      </a>
+      <a class="btn" href="https://www.linkedin.com/in/mobinushadhin/" target="_blank"> Let's connect!</a>
     </div>
   </div>
 
   <div>
-    <div>
-    <div class="text-3xl w-full font-bold mb-2">Key Experience & Projects</div>
+    <div class="text-3xl w-full font-bold mb-2">My Last Projects {"</>"}</div>
   </div>
 
   <HorizontalCard
     title="Remote Medicare Specialist"
-    img="/post_img.webp"
-    desc="Managed 15+ daily virtual consultations and maintained 100% CMS compliance for senior health coverage. Leveraged remote CRM tools to guide seniors through Medicare Advantage and Part D options."
+    img="/medicare.jpg"
+    desc="Managed 15+ daily virtual consultations and maintained 100% CMS compliance."
     url="/projects/medicare"
     badge="Sales"
   />
   <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Community Leadership (ISPC)"
-    img="/post_img.webp"
-    desc="Led a volunteer team serving 100+ daily community members for the Islamic Society of Pinellas County. Acted as a youth mentor and organized large-scale service operations."
-    url="/projects/ispc-leadership"
-    badge="Leadership"
+    title="ISPC Volunteer Lead"
+    img="/ispc.jpg"
+    desc="Led youth volunteer teams and coordinated logistics for 100+ daily attendees."
+    url="/projects/ispc"
+    badge="Volunteer"
   />
   <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Digital Strategy & Growth"
-    img="/post_img.webp"
-    desc="Developed a social media content strategy that generated over 10 million views. Managed video production, analytics, and community engagement to maximize digital reach."
+    title="Social Media Strategy"
+    img="/social.jpg"
+    desc="Strategies used to grow online presence and engagement."
     url="/projects/social-media"
     badge="Marketing"
   />
 
-  </BaseLayout>
+</BaseLayout>
