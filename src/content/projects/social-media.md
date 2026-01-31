@@ -2,7 +2,7 @@
 title: "Digital Strategy & Growth"
 description: "Developed a social media content strategy that generated over 10 million views."
 pubDate: "July 2024"
-heroImage: "/post_img.webp"
+heroImage: "/tiktok.jpg"
 badge: "Marketing"
 ---
 
