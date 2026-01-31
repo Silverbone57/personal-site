@@ -1,4 +1,7 @@
-export const SITE_TITLE = 'Mobinu Shadhin | Future Dentist';
-export const SITE_DESCRIPTION = 'Psychology student at USF and licensed insurance professional focused on clinical excellence and patient-centered dental care.';
-export const GENERATE_SLUG_FROM_TITLE = true;
-export const TRANSITION_API = true;
+// Place any global data in this file.
+// You can import this data from anywhere in your site by using the `import` keyword.
+
+export const SITE_TITLE = 'Mobinu Shadhin';
+export const SITE_DESCRIPTION = 'Aspiring Dentist and Licensed Insurance Professional.';
+export const GENERATE_SLUG_FROM_TITLE = true
+export const TRANSITION_API = true
