@@ -4,42 +4,63 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout title="Contact | Mobinu Shadhin" sideBarActiveItemID="contact">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Contact Me</div>
+    <div class="text-3xl w-full font-bold">Get in Touch</div>
   </div>
 
-  <div class="mb-10">
-    I am currently available for clinical opportunities and professional networking. Please feel free to reach out via the channels below.
-  </div>
+  <div class="mb-10 text-lg">
+    <p class="mb-8">
+      Whether you are looking for insurance solutions, discussing dental school prerequisites, or coordinating community service events, I am always open to connecting.
+    </p>
 
-  <div class="grid gap-6">
-    <div class="card bg-base-100 shadow-xl">
-      <div class="card-body">
-        <h2 class="card-title">Email</h2>
-        <p>mobinushadhin@gmail.com</p>
-        <div class="card-actions justify-end">
-          <a href="mailto:mobinushadhin@gmail.com" class="btn btn-primary">Send Email</a>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <div class="card bg-base-200 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.44-5.15-3.75-6.59-6.59l1.97-1.57c.23-.23.33-.55.24-1.01a11.36 11.36 0 0 1-.56-3.53c0-.55-.45-1-1-1H4.41c-.55 0-1 .45-1 1 15.93 15.93 0 0 0 16.6 16.6c.55 0 1-.45 1-1v-3.58c0-.55-.45-1-1-1z"></path></svg>
+            Phone
+          </h2>
+          <p>(727) 291-3930</p>
+          <div class="card-actions justify-end">
+            <a href="tel:+17272913930" class="btn btn-primary btn-sm">Call Now</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="card bg-base-100 shadow-xl">
-      <div class="card-body">
-        <h2 class="card-title">LinkedIn</h2>
-        <p>Connect with me professionally.</p>
-        <div class="card-actions justify-end">
-          <a href="https://www.linkedin.com/in/mobinu-shadhin-5702b3336/" target="_blank" class="btn btn-primary">View Profile</a>
+      <div class="card bg-base-200 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+            Email
+          </h2>
+          <p>Available for inquiries.</p>
+          <div class="card-actions justify-end">
+            <a href="mailto:INSERT_YOUR_EMAIL_HERE@GMAIL.COM" class="btn btn-primary btn-sm">Send Email</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="card bg-base-100 shadow-xl">
-      <div class="card-body">
-        <h2 class="card-title">Phone</h2>
-        <p>(727) 291-3930</p>
-        <div class="card-actions justify-end">
-          <a href="tel:+17272913930" class="btn btn-primary">Call Now</a>
+      <div class="card bg-base-200 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </h2>
+          <p>Connect professionally.</p>
+          <div class="card-actions justify-end">
+            <a href="https://www.linkedin.com/in/mobinushadhin/" target="_blank" class="btn btn-primary btn-sm">Connect</a>
+          </div>
         </div>
       </div>
+
+      <div class="card bg-base-200 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title">Location</h2>
+          <p>Pinellas Park, Florida</p>
+          <p class="text-sm opacity-75">Serving the Greater Tampa Bay Area</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </BaseLayout>
