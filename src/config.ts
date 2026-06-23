@@ -4,3 +4,4 @@
 export const SITE_TITLE = 'Mobinu Shadhin | Tech Sales Professional';
 export const SITE_DESCRIPTION = 'High-output sales professional specializing in pipeline management, high-volume outreach, and full-cycle closing.';
 export const GENERATE_SLUG_FROM_TITLE = true;
+export const TRANSITION_API = true;
