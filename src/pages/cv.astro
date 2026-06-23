@@ -1,42 +1,17 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/cv/TimeLineElement.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume | Mobinu Shadhin" sideBarActiveItemID="cv">
-  
-  <div class="mb-5 flex justify-between items-center">
-    <div class="text-3xl font-bold">Curriculum Vitae</div>
-    <a href="/resume.pdf" target="_blank" class="btn btn-outline">
-      Download PDF
-    </a>
-  </div>
-
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Professional Summary</div>
   </div>
 
-  <div class="mb-10 text-left">
-    Future Clinician and Licensed Insurance Professional with a background in Psychology and high-stakes sales.
-    Experienced in navigating complex regulatory frameworks (CMS), managing high-volume client pipelines, and leading community operations.
-    Committed to applying behavioral science and ethical leadership to a future career in dental medicine.
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Bachelor of Arts in Psychology"
-      subtitle="University of South Florida | Aug 2025 - May 2027"
-    />
-    <TimeLineElement
-      title="Associate of Arts"
-      subtitle="St. Petersburg College | Graduated May 2025"
-    >
-      Completed concurrently with High School Diploma at St. Petersburg Collegiate High School.
-    </TimeLineElement>
+  <div class="mb-10 text-justify leading-relaxed">
+    <p>
+      High-output sales professional with over 2 years of experience across inbound and outbound environments in insurance and financial services. Proven ability to manage high call volumes, qualify prospects quickly, and move deals through a structured pipeline under real performance metrics. Experienced with CRM platforms, virtual sales tools, and fully remote workflows. Now targeting a tech sales role (SDR/AE) to bring a proven consultative foundation into a high-growth SaaS or B2B environment.
+    </p>
   </div>
 
   <div class="mb-5">
@@ -45,47 +20,79 @@ import TimeLineElement from "../components/cv/TimeLineElement.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Licensed Health Insurance Agent (1099)"
-      subtitle="US Health Advisors | Sept 2025 - Present"
+      title="Sales Representative"
+      subtitle="From June 2026 to Present at Insuredin10, Clearwater, FL"
     >
-      - Manage a persistent client pipeline through consistent follow-up and service-oriented communication.<br>
-      - Provide expert advisory on life and health insurance policies tailored to client clinical needs.<br>
-      - Operate as an independent producer focusing on high-stakes problem solving.
+      <ul class="list-disc list-inside mb-4 ml-2">
+        <li>Handle 30+ inbound calls daily from warm leads; conduct 12-15 full discovery and closing conversations per shift.</li>
+        <li>Maintain a consistent close rate of ~20%, outperforming team average through targeted objection handling.</li>
+        <li>On pace for 11+ sales per week, managing the full cycle from initial call through application submission.</li>
+        <li>Track pipeline stages, follow-up cadences, and application status through CRM to ensure zero deals fall through.</li>
+      </ul>
     </TimeLineElement>
 
     <TimeLineElement
-      title="Remote Medicare Sales Agent"
-      subtitle="Exact Medicare | June 2025 - Sept 2025"
+      title="Independent Insurance Broker"
+      subtitle="From March 2026 to Present at Pinnacle Life Group, Remote"
     >
-      - Conducted 15+ daily virtual consultations to identify coverage based on clinical needs and budget.<br>
-      - Maintained 100% compliance with CMS (Centers for Medicare & Medicaid Services) guidelines during the Special Enrollment Period.<br>
-      - Educated seniors on complex Medicare Advantage and Medigap options.
+      <ul class="list-disc list-inside mb-4 ml-2">
+        <li>Operate as an independent producer across health and life insurance carriers, managing an active book of business.</li>
+        <li>Conduct needs-based consultations to identify optimal private market coverage based on income and health profiles.</li>
+        <li>Own full end-to-end client lifecycle: prospecting, quoting, enrollment, and post-sale retention with no handoffs.</li>
+      </ul>
     </TimeLineElement>
 
     <TimeLineElement
-      title="Remote Licensed Insurance Agent"
-      subtitle="Globe Life (AIL) | Dec 2024 - April 2025"
+      title="Health Insurance Agent"
+      subtitle="From September 2025 to March 2026 at US Health Advisors, Tampa, FL"
     >
-      - Delivered professional virtual presentations of life insurance policies to diverse client groups.<br>
-      - Built long-term client relationships through exceptional remote service and digital follow-up.
+      <ul class="list-disc list-inside mb-4 ml-2">
+        <li>Advised clients on private health insurance plans, identifying coverage gaps and recommending tailored solutions.</li>
+        <li>Managed a consistent client pipeline with multi-touch follow-up sequences, maintaining high contact rates.</li>
+        <li>Operated as a 1099 independent producer, self-managing daily prospecting and closing activity.</li>
+      </ul>
     </TimeLineElement>
-    
+
     <TimeLineElement
-      title="Sales Associate"
-      subtitle="Advance Auto Parts | July 2024 - Dec 2024"
+      title="Medicare Sales Agent"
+      subtitle="From June 2025 to September 2025 at Exact Medicare, Remote"
     >
-      - Generated over $800 in revenue per shift through technical product knowledge and sales techniques.<br>
-      - Managed front-end operations with high dependability in a fast-paced environment.
+      <ul class="list-disc list-inside mb-4 ml-2">
+        <li>Educated beneficiaries on Medicare Advantage, Part D, and Medigap plans, conducting 15+ virtual consultations daily.</li>
+        <li>Maintained 100% CMS compliance across all enrollment interactions, adhering to strict federal regulatory requirements.</li>
+      </ul>
     </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications & Skills</div>
+    <div class="text-3xl w-full font-bold">Skills & Tools</div>
   </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li><b>License:</b> Florida 2-15 Life, Health, and Variable Annuity Insurance License (Issued Jan 2025)</li>
-    <li><b>Technical:</b> Salesforce/HubSpot CRM, Zoom/Teams Virtual Sales, Microsoft Office 365</li>
-    <li><b>Core Skills:</b> Remote Consultative Selling, CMS Regulatory Compliance, Clinical Ethics, Team Leadership</li>
+  <ul class="list-disc md:columns-2 columns-1 mx-6 mb-10">
+    <li>Consultative Selling</li>
+    <li>Pipeline Management</li>
+    <li>Objection Handling</li>
+    <li>Inbound & Outbound Sales</li>
+    <li>Appointment Setting</li>
+    <li>GoHighLevel CRM</li>
+    <li>Virtual Dialer Systems</li>
+    <li>10DLC SMS Outreach</li>
+    <li>Zoom & Microsoft Teams</li>
+    <li>Active FL 2-15 License</li>
   </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="B.A. in Psychology"
+      subtitle="August 2025 to May 2027 (Expected) at University of South Florida, Tampa, FL"
+    />
+    <TimeLineElement
+      title="Associate of Arts"
+      subtitle="Graduated May 2025 at St. Petersburg College, St. Petersburg, FL"
+    />
+  </div>
 </BaseLayout>
